@@ -1,0 +1,194 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding:0px;
+}
+
+/*start head*/
+.back{
+  
+   background-color:rgba(123, 57, 110, 100);
+ 
+}
+
+.head{
+    padding:120px 0px 50px 0px;
+    color: #fff;
+}
+
+.head h1{
+    border-right: gray 2px solid;
+    padding:0px 20px;
+}
+.head p{
+     padding:0px 10px;
+     color: #dbdbdb;
+}
+.head button{
+    margin:5px 10px;
+    border-radius:30px;
+    padding:10px 40px;
+}
+.left{
+    padding:60px 0px;
+}
+
+
+.left h1{
+    padding:20px 10px;
+}
+.left p{
+    padding:10px 10px;
+}
+
+.left button{
+    margin:5px 10px;
+    border-radius:30px;
+    padding:10px 40px;
+    background: none;
+    border:2px solid #dbdbdb;
+}
+
+.fa{
+    line-height:40px;
+    color:rgb(0, 245, 0);
+   
+}
+
+
+.border{
+    border-right:2px solid gray;
+}
+
+
+/*close left*/
+
+/*start three-section*/
+.three-section{
+    background-color: #dbdbdb;
+}
+.image-part img{
+    width:100%;
+}
+
+.image-part{
+    background-color: #fff;
+    margin:10% 0px 5% 0px;
+}
+
+.image-part button{
+        padding:10px 40px;
+        border-radius:40px;
+        background: none;
+        border:2px solid #dbdbdb;      
+}
+
+.image-part .col-lg-6{
+        padding-left: 0px;    
+}
+
+.image-part h1{
+    padding-top:30%;
+}
+.image-part p{
+    padding:20px 0px;
+}
+
+.buttn button{
+    padding:10px 60px;
+    border-radius:40px;
+    background: none;
+    border:2px solid black; 
+    margin-bottom:50px;
+    
+}
+/*close three-section*/
+
+
+/*start two-section*/
+.left-side{
+    padding:15% 0px;
+   
+}
+
+.form-part{
+    border-right:2px solid gray;
+    padding:0px 15px;
+}
+
+.form-part p{
+        padding:30px 0px;
+}
+
+.form-part button{
+    padding:10px 30px;
+    border-radius:40px;
+    background: none;
+    border:2px solid black; 
+    margin-bottom:50px;
+}
+.social{
+    padding:15% 0px;
+}
+
+.social h4{
+    line-height:45px;
+}
+.social .fa{
+    line-height:50px;
+    color:rgb(0, 245, 0);
+   
+}
+/*close tow-section*/
+
+
+.footer{
+    background-color: #dbdbdb;
+    border-top:1px solid rgb(138, 138, 138);
+}
+
+.footer p{
+    
+    padding:30px 0px;
+}
+
+/*start media-query*/
+
+@media only screen and (max-width:770px){
+        .head h1{
+            font-size:30px;
+            border-right:none;    
+        }
+
+        .head{
+            padding:80px 0px 30px 0px;
+        }
+
+        .border{
+            border-right: none;
+            border-bottom:1px solid grey;
+            padding: 40px 0px 0px 0px;
+        }
+        .image-part h1{
+            padding-top:10%;
+        }
+        .image-part{
+            padding-bottom:15px;
+        }
+        .form-part{
+            border-right:none;
+        }
+        .social{
+            padding:0%  0px 10% 0px;    
+        }
+
+       .image-part .col-lg-6{
+                padding-right:0px;
+        }
+}
+
+
+/*close media-query*/
